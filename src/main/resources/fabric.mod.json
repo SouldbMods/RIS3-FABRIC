@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ris3",
+  "version": "1.0.0",
+  "name": "Really In Space 3 Fabric",
+  "authors": [
+    "Admin, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": "https://github.com/ClothCreators/MCreatorFabricGenerator"
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.souldb.ris3.fabric.Ris3Mod"
+    ],
+    "client": [
+      "xyz.souldb.ris3.fabric.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}
